@@ -88,6 +88,8 @@ class FullscreenActivity : AppCompatActivity() {
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
         binding.dummyButton.setOnTouchListener(delayHideTouchListener)
+
+        //test
     }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {
